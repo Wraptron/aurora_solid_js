@@ -1,0 +1,25 @@
+{
+  "resolvedId": "C:/solid js/authentication-client/node_modules/@solidjs/router/dist/lifecycle.js",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export function createBeforeLeave() {\r\n    let listeners = new Set();\r\n    function subscribe(listener) {\r\n        listeners.add(listener);\r\n        return () => listeners.delete(listener);\r\n    }\r\n    let ignore = false;\r\n    function confirm(to, options) {\r\n        if (ignore)\r\n            return !(ignore = false);\r\n        const e = {\r\n            to,\r\n            options,\r\n            defaultPrevented: false,\r\n            preventDefault: () => (e.defaultPrevented = true)\r\n        };\r\n        for (const l of listeners)\r\n            l.listener({\r\n                ...e,\r\n                from: l.location,\r\n                retry: (force) => {\r\n                    force && (ignore = true);\r\n                    l.navigate(to, options);\r\n                }\r\n            });\r\n        return !e.defaultPrevented;\r\n    }\r\n    return {\r\n        subscribe,\r\n        confirm\r\n    };\r\n}\r\n",
+      "start": 1691669610490,
+      "end": 1691669610490
+    },
+    {
+      "name": "vite:define",
+      "result": "export function createBeforeLeave() {\r\n    let listeners = new Set();\r\n    function subscribe(listener) {\r\n        listeners.add(listener);\r\n        return () => listeners.delete(listener);\r\n    }\r\n    let ignore = false;\r\n    function confirm(to, options) {\r\n        if (ignore)\r\n            return !(ignore = false);\r\n        const e = {\r\n            to,\r\n            options,\r\n            defaultPrevented: false,\r\n            preventDefault: () => (e.defaultPrevented = true)\r\n        };\r\n        for (const l of listeners)\r\n            l.listener({\r\n                ...e,\r\n                from: l.location,\r\n                retry: (force) => {\r\n                    force && (ignore = true);\r\n                    l.navigate(to, options);\r\n                }\r\n            });\r\n        return !e.defaultPrevented;\r\n    }\r\n    return {\r\n        subscribe,\r\n        confirm\r\n    };\r\n}\r\n",
+      "start": 1691669610490,
+      "end": 1691669610490,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export function createBeforeLeave() {\r\n    let listeners = new Set();\r\n    function subscribe(listener) {\r\n        listeners.add(listener);\r\n        return () => listeners.delete(listener);\r\n    }\r\n    let ignore = false;\r\n    function confirm(to, options) {\r\n        if (ignore)\r\n            return !(ignore = false);\r\n        const e = {\r\n            to,\r\n            options,\r\n            defaultPrevented: false,\r\n            preventDefault: () => (e.defaultPrevented = true)\r\n        };\r\n        for (const l of listeners)\r\n            l.listener({\r\n                ...e,\r\n                from: l.location,\r\n                retry: (force) => {\r\n                    force && (ignore = true);\r\n                    l.navigate(to, options);\r\n                }\r\n            });\r\n        return !e.defaultPrevented;\r\n    }\r\n    return {\r\n        subscribe,\r\n        confirm\r\n    };\r\n}\r\n",
+      "start": 1691669610490,
+      "end": 1691669610490,
+      "order": "normal"
+    }
+  ]
+}

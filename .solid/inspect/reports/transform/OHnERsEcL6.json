@@ -1,0 +1,25 @@
+{
+  "resolvedId": "C:/solid js/authentication-client/node_modules/solid-start/root/index.tsx?v=1b141ace",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"./Document\";\nexport { default as Links } from \"./Links\";\nexport { default as Meta } from \"./Meta\";\nexport { default as Scripts } from \"./Scripts\";\n\n",
+      "start": 1691669611764,
+      "end": 1691669611764
+    },
+    {
+      "name": "solid",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"./Document\";\nexport { default as Links } from \"./Links\";\nexport { default as Meta } from \"./Meta\";\nexport { default as Scripts } from \"./Scripts\";",
+      "start": 1691669611764,
+      "end": 1691669611766,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"/node_modules/solid-start/root/Document.tsx?v=1b141ace\";\nexport { default as Links } from \"/node_modules/solid-start/root/Links.tsx?v=1b141ace\";\nexport { default as Meta } from \"/node_modules/solid-start/root/Meta.tsx?v=1b141ace\";\nexport { default as Scripts } from \"/node_modules/solid-start/root/Scripts.tsx?v=1b141ace\";",
+      "start": 1691669611766,
+      "end": 1691669611768,
+      "order": "normal"
+    }
+  ]
+}

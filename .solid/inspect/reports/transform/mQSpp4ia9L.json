@@ -1,0 +1,25 @@
+{
+  "resolvedId": "C:/solid js/authentication-client/node_modules/solid-start/data/index.ts?v=1b141ace",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export { useRouteData } from \"@solidjs/router\";\nexport { createRouteAction, createRouteMultiAction } from \"./createRouteAction\";\nexport { createRouteData, refetchRouteData } from \"./createRouteData\";\nexport type { FormAction, FormMethod, FormProps, SubmitOptions } from \"./Form\";\nexport { FormError, ServerError } from \"./FormError\";\n\n",
+      "start": 1691669611739,
+      "end": 1691669611739
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export { useRouteData } from \"@solidjs/router\";\nexport { createRouteAction, createRouteMultiAction } from \"./createRouteAction\";\nexport { createRouteData, refetchRouteData } from \"./createRouteData\";\nexport { FormError, ServerError } from \"./FormError\";\n",
+      "start": 1691669611739,
+      "end": 1691669611790,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export { useRouteData } from \"/node_modules/@solidjs/router/dist/index.jsx?v=1b141ace\";\nexport { createRouteAction, createRouteMultiAction } from \"/node_modules/solid-start/data/createRouteAction.tsx?v=1b141ace\";\nexport { createRouteData, refetchRouteData } from \"/node_modules/solid-start/data/createRouteData.tsx?v=1b141ace\";\nexport { FormError, ServerError } from \"/node_modules/solid-start/data/FormError.tsx?v=1b141ace\";\n",
+      "start": 1691669611791,
+      "end": 1691669611796,
+      "order": "normal"
+    }
+  ]
+}
